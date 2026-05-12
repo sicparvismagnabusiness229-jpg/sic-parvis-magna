@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIC PARVIS MAGNA</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>SIC PARVIS MAGNA BUSINESS</h1>
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#products">Produits</a>
+    <a href="#about">À propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Produits frais, locaux et de qualité</h2>
+  <p>Directement de notre ferme à votre table</p>
+  <a href="https://wa.me/22961473565?text=Bonjour,%20je%20veux%20commander%20un%20poulet" class="btn">Commander</a>
+</section>
+
+<section class="products" id="products">
+  <h2>Nos Produits</h2>
+
+  <div class="product-list">
+
+    <!-- LAPINS -->
+
+    <div class="card">
+      <div class="badge">Top qualité 100% Local</div>
+      <img src="Lapin mangeant.jpeg" alt="Lapin">
+      <h3>LAPINS</h3>
+      <p>Élevé localement, alimentation naturelle. Pour consommation et reproduction</p>
+      <p class="price">3 500 FCFA / KG</p>
+      <p class="bulk">💼 Offre pro : à partir de 10 kg → prix réduit</p>
+      <input type="number" value="1" min="1" class="qty">
+
+      <button onclick="order('Poulet', this)" class="btn1">
+    Commander
+      </button>
+    </div>
+
+    <!-- POULETS -->
+
+    <div class="card">
+      <div class="badge">Top qualité 100% Local</div>
+      <img src="POULET .jpeg" alt="Poulet">
+      <h3>POULET</h3>
+      <p>Frais et prêt à consommer</p>
+      <p class="price">3 000 FCFA</p>
+      <p class="bulk">💼 Offre pro : à partir de 10 unités → prix réduit</p>
+      <input type="number" value="1" min="1" class="qty">
+
+      <button onclick="order('Poulet', this)" class="btn1">
+    Commander
+      </button>
+    </div>
+
+    <!-- POISSONS -->
+
+    <div class="card">
+      <img src="Vu d'en gros .jpeg" alt="Produit">
+      <h3>POISSON</h3>
+      <p>Qualité supérieure</p>
+      <a href="https://wa.me/22961473565?text=Bonjour,%20je%20veux%20commander%20du%20poisson.%20Quel%20est%20le%20délai%20de%20livraison%20?" class="btn">Commander</a>
+    </div>
+
+    <!-- DIVERS -->
+
+   <div class="card">
+      <img src="Plage plante.jpeg" alt="Produit">
+      <h3>DIVERS</h3>
+      <p>Nous vendons également divers produits céréaliers, tubercules et plantes</p>
+      <a href="https://wa.me/22961473565?text=Bonjour,%20dites%20moi%20plus%20sur%20cet%20article%20." class="btn">En savoir plus</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- <section class="delivery">
+  <h2>Livraison</h2>
+  <p>🚚 Livraison rapide à Cotonou et environs</p>
+  <p>⏱️ Commandez avant 14h pour livraison le jour même</p>
+</section> -->
+
+<div class="top-bar">
+  ⚠️ Livraison disponible aujourd’hui - Stock limité
+</div>
+
+<section class="pro">
+  <h2>Professionnels (Hôtels & Restaurants)</h2>
+  <p>
+    Nous fournissons des produits en quantité avec une qualité constante.
+    Approvisionnement fiable pour votre activité.
+  </p>
+
+  <ul>
+    <li>✔ Livraison régulière</li>
+    <li>✔ Tarifs adaptés aux volumes</li>
+    <li>✔ Produits frais et traçables</li>
+  </ul>
+
+  <a href="https://wa.me/22961473565?text=Bonjour,%20je%20suis%20intéressé%20par%20un%20approvisionnement%20régulier.%20Pouvez-vous%20me%20présenter%20vos%20conditions%20?" class="btn pro-btn">
+  Demander un devis professionnel
+  </a>
+</section>
+
+<section class="credibility">
+  <h2>Pourquoi nous choisir ?</h2>
+  <p>✔ Production locale</p>
+  <p>✔ Qualité contrôlée</p>
+  <p>✔ Livraison fiable</p>
+</section>
+
+<!-- <section class="reviews">
+  <h2>Clients satisfaits</h2>
+  <p>⭐️⭐️⭐️⭐️⭐️ "Produits très frais" - Restaurant Le Gourmet</p>
+  <p>⭐️⭐️⭐️⭐️⭐️ "Livraison rapide" - Client Cotonou</p>
+</section> -->
+
+<section class="about" id="about">
+  <h2>À propos</h2>
+  <p>
+    SIC PARVIS MAGNA est un projet d’élevage moderne basé sur la qualité, la traçabilité
+    et la satisfaction client. Nous fournissons des produits frais aux particuliers et professionnels.
+  </p>
+</section>
+
+<section class="process">
+  <h2>Notre processus</h2>
+  <p>De l’élevage à la livraison, nous garantissons un suivi rigoureux</p>
+
+  <div class="steps">
+    <div>🐣 Élevage contrôlé</div>
+    <div>🌿 Alimentation naturelle</div>
+    <div>🧼 Hygiène stricte</div>
+    <div>🚚 Livraison rapide</div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+  <p>Email : contact@sicparvismagnabusiness.com</p>
+  <p>Téléphone : +229 01 61 47 35 65</p>
+</section>
+
+<section class="trust">
+  <h2>Ils nous font confiance</h2>
+  <p>Restaurants, hôtels et particuliers nous font déjà confiance pour la qualité de nos produits.</p>
+</section>
+
+
+
+<footer>
+  <p>© 2026 SIC PARVIS MAGNA - Tous droits réservés</p>
+</footer>
+
+<a href="https://wa.me/22961473565" class="whatsapp-float">💬</a>
+
+</body>
+</html>

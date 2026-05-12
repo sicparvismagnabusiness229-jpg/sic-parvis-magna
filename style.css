@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #2c3e50;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #27ae60;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #27ae60;
+}
+
+.hero h2 {
+  font-size: 2em;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #fff;
+  color: #27ae60;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.btn1 {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #fff;
+  color: #27ae60;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* PRODUCTS */
+.products {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bulk {
+  font-size: 0.9em;
+  color: #f1c40f;
+  margin-bottom: 10px;
+}
+
+/* PROFESSIONNELS*/
+.pro {
+  padding: 50px 20px;
+  background: #111;
+  text-align: center;
+}
+
+.pro ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pro li {
+  margin: 10px 0;
+}
+
+.pro-btn {
+  background: gold;
+  color: black;
+}
+
+/* CREDIBILITE*/
+
+.credibility {
+  padding: 40px;
+  text-align: center;
+  background: #0e0909;
+}
+
+/* CARD */
+.card {
+  width: 280px;
+  background: #111;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #2c3e50;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+}
+
+.card p {
+  padding: 0 10px 15px;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+/* ABOUT & CONTACT */
+.about, .contact {
+  padding: 50px 20px;
+  background: #0e0909;
+  text-align: center;
+}
+/* PREUVES  SOCIALE*/
+.trust {
+  text-align: center;
+  padding: 40px 20px;
+  background: #111;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2c3e50;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .product-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+/*PREMIUM*/
+
+/* TYPO + LOOK PREMIUM */
+h1, h2, h3 {
+  letter-spacing: 1px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('POULET.jpeg') center/cover;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* BADGE QUALITÉ */
+.badge {
+  background: gold;
+  color: black;
+  padding: 5px 10px;
+  font-size: 12px;
+  position: absolute;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.top-bar {
+  background: red;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* .reviews {
+  padding: 40px;
+  text-align: center;
+  background: #0e0909;
+}
+
+.delivery {
+  padding: 40px;
+  text-align: center;
+  background: #0e0909;
+} */
+
+.process {
+  padding: 50px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
